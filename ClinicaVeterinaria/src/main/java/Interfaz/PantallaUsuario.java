@@ -74,7 +74,6 @@ public class PantallaUsuario extends javax.swing.JFrame{
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jMenuItem1 = new javax.swing.JMenuItem();
@@ -132,29 +131,29 @@ public class PantallaUsuario extends javax.swing.JFrame{
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12));
         jLabel1.setText("REGISTRO DEL VOLUNTARIO");
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14));
         jLabel2.setText("NOMBRE");
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14));
         jLabel3.setText("APELLIDO");
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14));
         jLabel4.setText("DIA");
 
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 14));
         jLabel5.setText("MES");
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 14));
         jLabel6.setText("AÑO");
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 14));
         jLabel7.setText("CEDULA");
 
         btnRegistrar.setBackground(new java.awt.Color(170, 203, 237));
-        btnRegistrar.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btnRegistrar.setFont(new java.awt.Font("Segoe UI", 1, 14));
         btnRegistrar.setText("REGISTRAR");
         btnRegistrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -168,7 +167,7 @@ public class PantallaUsuario extends javax.swing.JFrame{
             }
         });
 
-        jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 14));
         jLabel8.setText("FECHA DE NACIMIENTO");
 
         jLabel11.setText("SER MAYOR DE EDAD*");
@@ -256,7 +255,7 @@ public class PantallaUsuario extends javax.swing.JFrame{
         ));
         jScrollPane1.setViewportView(tblDatos);
 
-        jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 14));
         jLabel10.setText("USUARIOS");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -345,7 +344,7 @@ public class PantallaUsuario extends javax.swing.JFrame{
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     private void RegistrarVoluntario(java.awt.event.ActionEvent evt) {
 
