@@ -1,4 +1,4 @@
-package com.mycompany.clinicaveterinaria;
+package clinicaveterinaria;
 
 import Interfaz.PantallaUsuario;
 
