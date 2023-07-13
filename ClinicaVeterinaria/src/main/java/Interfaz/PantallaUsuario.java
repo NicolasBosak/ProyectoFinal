@@ -384,7 +384,7 @@ public class PantallaUsuario extends javax.swing.JFrame{
         if (nombreV.isEmpty() || apellidoV.isEmpty() || dia == 0 || mes == 0 || anio == 0 || ci == 0){
           JOptionPane.showMessageDialog(this, "Complete todos los datos.");
         }
-        if (cantidadCaracteres < 10 || cantidadCaracteres > 10){
+        if (cantidadCaracteres < 10){
             JOptionPane.showMessageDialog(this, "El numero de cedula debe tener 10 digitos.");
             limpiar();
             System.out.print(cantidadCaracteres);
